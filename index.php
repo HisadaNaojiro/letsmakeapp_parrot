@@ -10,6 +10,19 @@
 <body>
     <div class="container mt-5">
       <h1>オウム返し</h1><hr />
+
+      <div class="card"> 
+        <div class="card-body">
+          <form method="POST">
+            <div class="form-group">
+              <label></label>
+              <input class="form-control" name="text" type="text" placeholder="入力してください" />
+            </div>
+            <input class="btn btn-primary btn-block" type="submit" value="送信" />
+          </form>
+        </div>
+      </div>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
