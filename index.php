@@ -23,6 +23,11 @@
         </div>
       </div>
 
+      <?php if (!empty($_POST['text'])): ?>
+        <div class="alert alert-success mt-3 " role="alert">
+          <h4 class="alert-heading"><?php echo htmlspecialchars($_POST['text'], ENT_QUOTES); ?></h4>
+        </div>
+      <?php endif; ?>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
